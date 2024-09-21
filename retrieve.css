@@ -1,0 +1,31 @@
+a{
+    font-weight: bold;
+    font-size:20px;
+    text-decoration: none;
+}
+body{
+    margin:0;
+}
+header{
+    position: sticky;
+    height:60px;
+    background-color:black;
+}
+.savedfiles{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    padding-top:10px;
+    text-align: center;
+    color:#fff
+}
+
+body{
+    background-color: #deddddfb;
+}
+

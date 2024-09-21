@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>File Upload</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Your Files</h2>
+        <form action="connect.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit" name="submit">Upload</button>
+        </form>
+    </div>
+    <div class="container">
+        <h2>View your saved files here:</h2>
+        <form action="retrieve.php" >
+            <button type="submit" name="Access Files">Access Files</button>
+        </form>
+    </div>
+</body>
+</html>
